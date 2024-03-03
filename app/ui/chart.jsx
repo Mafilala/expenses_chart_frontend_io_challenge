@@ -4,8 +4,7 @@ import * as d3 from "d3";
 import styles from "./chart.module.css";
 const Chart = ({ data }) => {
   const threshold = 375;
-  const [width, setWidth] = useState(window.innerWidth > threshold ? 350 : 300);
-  console.log(width);
+  const [width, setWidth] = useState(300);
   const svgRef = useRef(null);
   const h = 180;
   const padding = 10;
