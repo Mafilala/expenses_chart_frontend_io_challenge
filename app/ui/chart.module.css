@@ -1,0 +1,15 @@
+.bar {
+  fill: var(--soft_red);
+}
+.biggest {
+  fill: var(--cyan);
+}
+.bar:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.biggest:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
